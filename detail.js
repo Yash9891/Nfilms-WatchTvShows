@@ -112,7 +112,7 @@ const imageClickHandler = async (event) => {
           genres.innerText = `${horror.show.genres||''}`;
   
           const showdescription = document.createElement('p');
-          showdescription.innerHTML = `${horror.show.summary||''}`;
+          showdescription.innerHTML = `${horror.show.summary||'This is an amazing show. It is based on the real life situations. You wil not be disappointed after watching this show. You can trust me I am Batman.'}`;
   
           showAlldetails.appendChild(showimg);
           showAlldata.appendChild(heading);

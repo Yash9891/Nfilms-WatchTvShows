@@ -409,15 +409,16 @@ span a{
         font-size: 1.5rem;
     }
     .show-details div p{
-        font-size: 0.7rem;  
+        font-size: 0.8rem; 
+        margin-right: 0; 
        
     }
     .main{
-        height: 790px;
+        height: 810px;
        
     }
     .main .box{
-        height: 790px;
+        height: 810px;
         
     }
     span img{

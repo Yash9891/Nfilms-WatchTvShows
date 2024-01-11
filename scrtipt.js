@@ -36,7 +36,7 @@ const getData = (shows) => {
             image.setAttribute('data-language', eachshow.show.language || ''); // Assigning language or an empty string
             image.setAttribute('data-premiered', eachshow.show.premiered || ''); // Assigning premiered date or an empty string
             image.setAttribute('data-image', eachshow.show.image.medium || ''); // Assigning image or an empty string
-            image.setAttribute('data-description', eachshow.show.summary || ''); // Assigning image or an empty string
+            image.setAttribute('data-description', eachshow.show.summary || 'This is an amazing show. It is based on the real life situations. You wil not be disappointed after watching this show. You can trust me I am Batman.'); // Assigning image or an empty string
             image.setAttribute('data-genres', eachshow.show.genres || ''); // Assigning image or an empty string
             image.setAttribute('data-name', eachshow.show.name || ''); // Assigning image or an empty string
 
@@ -75,7 +75,7 @@ const horrorshow = async (genery,generyname)=>{
             image.setAttribute('data-language', horror.show.language || ''); // Assigning language or an empty string
             image.setAttribute('data-premiered', horror.show.premiered || ''); // Assigning premiered date or an empty string
             image.setAttribute('data-image', horror.show.image.medium || ''); // Assigning image or an empty string
-            image.setAttribute('data-description', horror.show.summary || ''); // Assigning image or an empty string
+            image.setAttribute('data-description', horror.show.summary || 'This is an amazing show. It is based on the real life situations. You wil not be disappointed after watching this show. You can trust me I am Batman.'); // Assigning image or an empty string
             image.setAttribute('data-genres', horror.show.genres || ''); // Assigning image or an empty string
             image.setAttribute('data-name', horror.show.name || ''); // Assigning image or an empty string
 
