@@ -1,0 +1,337 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Martel Sans', sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assest/images/1background.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+.main .box{
+    height: 644px;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    height: 100px;
+    max-width: 60vw;
+    margin:auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    margin-top: 20px;
+    color: rgb(0, 208, 255);
+    width: 200px;
+    /* Pop out from opacity darkness */
+    position: relative;
+    z-index:10;
+}
+nav button{
+    position: relative;
+    z-index:10;
+
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: calc(100% - 100px);
+    position: relative;
+    padding:0 30;
+    gap: 23px;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+   text-align: center;
+}
+.hero>:nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+   text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 700;
+    font-size: 20px;
+       text-align: center;
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(51, 50, 50);
+    position: relative;
+    z-index: 20;
+
+}
+.btn{
+    text-decoration: none;
+    padding: 3px 8px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: rgba(4, 133, 197, 0.998);
+    color: white;
+    padding: 6px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+
+}
+.btn-red-sm{
+    background-color: rgba(4, 133, 197, 0.998);
+    color: white;
+    border: none;
+    font-size: 17px;
+   
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+   
+    color: white;
+    padding: 10px 101px 8px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: rgba(23, 23,23, 0.7);
+    border: 1px solid rgb(150, 150, 150);
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 555px;
+    position: relative;
+    z-index:10;
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+@media screen and (max-width:500px){
+    .secImg img{
+        width: 305px;
+    }
+    .secImg video{
+        width: 305px;
+    }
+    .bgbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .bgbutton input{
+        margin-bottom: 10px;
+        
+    }
+
+    
+ 
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+@media screen and (max-width:1000px){
+    nav{
+        max-width: 90vw;
+    }
+    .first{
+        flex-wrap:wrap;
+    }
+    .hero> :nth-child(1){
+        font-size: 32px;
+
+    }
+    .hero>:nth-child(2){
+        font-size: 18px;
+    }
+    .hero>:nth-child(3){
+        font-size: 18px;
+    }
+    .hero-buttons{
+        flex-direction: column;
+       
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+   .faqinput input{
+    margin-bottom: 1cqh;
+   }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item{
+        align-items: center;
+    }
+    .first >div :nth-child(1){
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .first >div :nth-child(2){
+        text-align: center;
+      
+       
+    }
+
+}
+.first >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first >div :nth-child(2){
+    font-size: 24px;
+   
+}
+@media screen and (max-width:500px){
+    .first >div :nth-child(1){
+        font-size: 38px;
+    }
+    .first >div :nth-child(2){
+        font-size: 18px;
+       
+    }
+}
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox {
+    transition: all 0.3s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 15px auto;
+    cursor: pointer;
+}
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+.h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.faqinput{
+    padding: 20px;
+    text-align: center;
+}
+.input{
+    color: white;
+    padding: 10px 101px 8px 14px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: rgba(23, 23,23, 0.7);
+    border: 1px solid rgb(150, 150, 150);
+ 
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+footer .questions{
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+@media screen and (max-width: 1300px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
